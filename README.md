@@ -12,7 +12,7 @@ A RAG-based AI counsellor for international students. Ask it about university ad
 
 ## Background
 
-Working in the education space at StudyIn, I kept running into the same problem: students would ask the same questions repeatedly — IELTS cutoffs, visa timelines, scholarship eligibility — and the answers were scattered across PDFs, HTML pages, and internal guides that counsellors had to dig through manually.
+Working in the education space, People kept running into the same problem: students would ask the same questions repeatedly — IELTS cutoffs, visa timelines, scholarship eligibility — and the answers were scattered across PDFs, HTML pages, and internal guides that counsellors had to dig through manually.
 
 I built EdAdvisor to solve that. It's not a chatbot that makes things up. It only answers from what's actually in the corpus, and if it's not confident enough, it says so and points the student to an official source. That escalation behaviour was the most important design decision — I'd rather the system admit it doesn't know than hallucinate a visa deadline.
 
