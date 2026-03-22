@@ -1,0 +1,142 @@
+[
+  {
+    "id": "prog-001",
+    "category": "program_info",
+    "question": "What are the entry requirements for a Master's degree in Computer Science at a typical UK university?",
+    "ground_truth": "A 2:1 or above in a relevant undergraduate degree such as Computer Science, Mathematics, or Engineering. Some universities accept strong 2:2s with relevant work experience.",
+    "expected_sources": ["program_guide", "entry_requirements"]
+  },
+  {
+    "id": "prog-002",
+    "category": "program_info",
+    "question": "What is the typical duration of a taught MSc programme in the UK?",
+    "ground_truth": "Most taught MSc programmes in the UK are one year full-time (12 months), or two to three years part-time.",
+    "expected_sources": ["program_guide"]
+  },
+  {
+    "id": "visa-001",
+    "category": "visa_requirements",
+    "question": "What visa do international students need to study in the UK?",
+    "ground_truth": "International students need a Student visa (formerly Tier 4) to study in the UK. They must have an unconditional offer from a licensed student sponsor, prove English language proficiency, and show they have enough money to support themselves.",
+    "expected_sources": ["visa_guide", "ukvi_requirements"]
+  },
+  {
+    "id": "visa-002",
+    "category": "visa_requirements",
+    "question": "How early can I apply for a UK student visa before my course starts?",
+    "ground_truth": "You can apply for a UK Student visa up to 6 months before your course start date if your course lasts longer than 6 months.",
+    "expected_sources": ["visa_guide"]
+  },
+  {
+    "id": "visa-003",
+    "category": "visa_requirements",
+    "question": "What financial evidence is required for a UK student visa?",
+    "ground_truth": "You must show you have enough money to pay your course fees for the first year plus living costs. For courses outside London you need at least £1,023 per month (up to 9 months). For London you need £1,334 per month. Funds must have been held for at least 28 consecutive days.",
+    "expected_sources": ["visa_guide", "ukvi_requirements"]
+  },
+  {
+    "id": "eng-001",
+    "category": "program_info",
+    "question": "What IELTS score is typically required for a Master's programme at a UK university?",
+    "ground_truth": "Most UK universities require an overall IELTS score of 6.5 to 7.0, with no component below 6.0. Top universities such as Oxford and Cambridge may require 7.5 overall.",
+    "expected_sources": ["english_requirements", "program_guide"]
+  },
+  {
+    "id": "eng-002",
+    "category": "program_info",
+    "question": "Can I use a TOEFL score instead of IELTS for UK university applications?",
+    "ground_truth": "Yes, most UK universities accept TOEFL iBT. A score of around 92-100 is typically required, depending on the institution. Check each university's specific requirements.",
+    "expected_sources": ["english_requirements"]
+  },
+  {
+    "id": "schol-001",
+    "category": "scholarships",
+    "question": "What is the Chevening Scholarship and who is it for?",
+    "ground_truth": "The Chevening Scholarship is the UK government's global scholarship programme, funded by the Foreign, Commonwealth & Development Office. It is for outstanding emerging leaders from eligible countries who want to pursue a one-year Master's degree at a UK university.",
+    "expected_sources": ["scholarships"]
+  },
+  {
+    "id": "schol-002",
+    "category": "scholarships",
+    "question": "When is the deadline to apply for the Commonwealth Scholarship?",
+    "ground_truth": "Commonwealth Scholarship deadlines vary by country. Applications are typically submitted through your national nominating agency between October and January for courses starting the following September.",
+    "expected_sources": ["scholarships"]
+  },
+  {
+    "id": "app-001",
+    "category": "program_info",
+    "question": "What documents are typically required when applying to a UK university?",
+    "ground_truth": "Typical requirements include: undergraduate transcripts and degree certificate, personal statement, two academic references, English language test certificate (IELTS/TOEFL), CV or resume, and a valid passport.",
+    "expected_sources": ["application_guide"]
+  },
+  {
+    "id": "app-002",
+    "category": "program_info",
+    "question": "What should I include in my personal statement for a UK university application?",
+    "ground_truth": "Your personal statement should include: your motivation for choosing the course, relevant academic background, work or research experience, skills and achievements, and your career goals after completing the programme.",
+    "expected_sources": ["application_guide"]
+  },
+  {
+    "id": "prog-003",
+    "category": "program_info",
+    "question": "What is a CAS number and why do I need it?",
+    "ground_truth": "A CAS (Confirmation of Acceptance for Studies) is a unique reference number assigned by your UK university once you accept an unconditional offer. You need it to apply for your Student visa. Your university will send it to you after you meet all conditions of your offer.",
+    "expected_sources": ["visa_guide", "application_guide"]
+  },
+  {
+    "id": "multi-001",
+    "category": "multi_hop",
+    "question": "If I get a 6.0 overall IELTS but one component is 5.5, can I still apply for a Master's at a UK university?",
+    "ground_truth": "It depends on the university's policy. Many universities require a minimum score in each component — commonly 6.0 in all components. A 5.5 in one component would typically not meet requirements at most universities, though some may accept it if the overall score is higher.",
+    "expected_sources": ["english_requirements", "program_guide"]
+  },
+  {
+    "id": "multi-002",
+    "category": "multi_hop",
+    "question": "Can I work part-time while studying in the UK on a Student visa?",
+    "ground_truth": "Yes, most students on a Student visa studying at a Higher Education Provider can work up to 20 hours per week during term time and full-time during vacations. Check your visa conditions as restrictions vary.",
+    "expected_sources": ["visa_guide"]
+  },
+  {
+    "id": "prog-004",
+    "category": "program_info",
+    "question": "What is a conditional offer from a UK university?",
+    "ground_truth": "A conditional offer means the university will accept you if you meet certain conditions — usually academic results (e.g., achieving a specific grade in your current degree) or language test scores. Once you meet all conditions, it becomes an unconditional offer.",
+    "expected_sources": ["application_guide"]
+  },
+  {
+    "id": "schol-003",
+    "category": "scholarships",
+    "question": "Are there scholarships specifically for Indian students wanting to study in the UK?",
+    "ground_truth": "Yes, several scholarships target Indian students: the Chevening Scholarship, Commonwealth Scholarships, the GREAT Scholarship (available at select universities), and many university-specific scholarships such as those offered by Edinburgh, Nottingham, and Manchester.",
+    "expected_sources": ["scholarships"]
+  },
+  {
+    "id": "oos-001",
+    "category": "out_of_scope",
+    "question": "What is the weather like in London in December?",
+    "ground_truth": "This is outside the scope of education counselling. The system should indicate it does not have relevant information on this topic.",
+    "expected_sources": []
+  },
+  {
+    "id": "oos-002",
+    "category": "out_of_scope",
+    "question": "Can you recommend a good restaurant near Imperial College London?",
+    "ground_truth": "This is outside the scope of education counselling. The system should indicate it does not have relevant information on this topic.",
+    "expected_sources": []
+  },
+  {
+    "id": "visa-004",
+    "category": "visa_requirements",
+    "question": "What happens to my Student visa if I fail my course?",
+    "ground_truth": "If you fail your course and your institution withdraws your enrolment, they will report this to UKVI. Your Student visa may be curtailed (shortened), and you may need to leave the UK or apply for a new visa if you enrol elsewhere. You should contact your international student office immediately.",
+    "expected_sources": ["visa_guide"]
+  },
+  {
+    "id": "prog-005",
+    "category": "program_info",
+    "question": "What is the difference between a taught Master's and a research Master's?",
+    "ground_truth": "A taught Master's (MSc, MA, MEng) involves structured modules, lectures, and a dissertation. It typically takes one year full-time. A research Master's (MRes or MPhil) is primarily research-based with less formal teaching. It often serves as preparation for a PhD.",
+    "expected_sources": ["program_guide"]
+  }
+]
